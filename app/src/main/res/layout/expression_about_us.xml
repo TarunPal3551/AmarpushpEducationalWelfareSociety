@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:context="org.amarpushp.android.client.expression.ExpressionAboutUsActivity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fitsSystemWindows="true"
+            android:text="About Expression"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_collapseMode="parallax"
+            android:background="@color/amarpushpapp"/>
+
+        <ImageView
+            android:layout_width="276dp"
+            android:layout_height="131dp"
+            android:layout_gravity="center"
+            android:src="@drawable/expression_logo" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="100dp"
+        android:text="     Expression - A Thought"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:layout_marginStart="15dp"
+        android:lineSpacingExtra="8sp"
+        android:text="         It is a platform of Amarpushup Educational and Welfare Society for extra curriculum and sports activity."
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="8sp"
+            android:text="         Expression is a unique concept which is designed by Mrs. Gitanjali to increase creativity in children and so that children can get platform to express their feeling with pencil and color."
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="20dp"
+        android:lineSpacingExtra="8sp"
+        android:text="       It provides an unique platform for the children to cultivate extra curriculum activities like drawing, rangoli design, lamp designing, etc."
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="20dp"
+        android:lineSpacingExtra="8sp"
+        android:text="      By this platform, Amarpushup Educational and Welfare Society spreads awareness of many social issues in children like Social Tree, Save Water, Save the Girl Child,Value the Girl Child, Education Awareness, Health Awareness, etc."
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"/>
+
+</LinearLayout>
+</ScrollView>

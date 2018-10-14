@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <item
+        android:id="@+id/About_Us"
+        android:icon="@drawable/aboutus"
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/Projects"
+        android:icon="@drawable/projectx"
+        android:title="Projects"/>
+    <item
+        android:id="@+id/career"
+        android:icon="@drawable/career"
+        android:title="Career" />
+
+    <item
+        android:id="@+id/Media"
+        android:icon="@drawable/media"
+        android:title="Media" />
+    <item
+        android:id="@+id/Sponsors"
+        android:icon="@drawable/sponser"
+        android:title="Sponsors" />
+    <item
+        android:id="@+id/Partners"
+        android:icon="@drawable/partner"
+        android:title="Partners" />
+    <item
+        android:id="@+id/Contact"
+        android:icon="@drawable/contact_book"
+        android:title="Contact" />
+    <item
+        android:id="@+id/Photo_Gallery"
+        android:icon="@drawable/gallery"
+        android:title="Photo Gallery" />
+    <item
+        android:id="@+id/Videos"
+        android:icon="@drawable/video"
+        android:title="Videos" />
+    <item
+        android:id="@+id/Donate"
+        android:icon="@drawable/donate"
+        android:title="Donate" />
+    <item
+        android:id="@+id/Notification"
+        android:icon="@drawable/notificatio"
+        android:title="Notification" />
+</menu>

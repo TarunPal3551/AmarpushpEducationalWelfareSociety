@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:context="org.amarpushp.android.client.vastradhan.VastraDhanAboutUsActivity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fitsSystemWindows="true"
+            android:text="About VastraDhan"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_collapseMode="parallax"
+            android:background="@color/amarpushpapp"/>
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:src="@drawable/amarpushp_vastradaan_1" />
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="100dp"
+            android:text="Vastra Daan Program"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:layout_marginStart="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="         On the occassion of Magha Mela every year at the bank of Holy ganga river in Allahabad, Amarpushp Educational and Welfare Society distributes old/new clothes to the needy people. Many people who have no proper place to live and combat extreme weather conditions. "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

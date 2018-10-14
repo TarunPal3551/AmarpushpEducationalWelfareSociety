@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:context="org.amarpushp.android.client.expression.Expression_Creative_Member_MainActvity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fitsSystemWindows="true"
+            android:text="National Artist Competition"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_collapseMode="parallax"
+            android:background="@color/amarpushpapp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Amarpushp Educational and Welfare Society (AEWS) is organizing National Artist Competition named “Expression | An Artist Heaven” for artist of age group from 18 to 40 years. This competition is a platform for artist to showcase their skills and creativity."
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="      The following rules and regulation will be applicable to all the participants of drawing competition:"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="1) Registration can be done by filling registration form. Photocopy of the Entry Form is also accepted."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="2) On the competition day, participants must enter only registration number and date on the designated place of drawing sheet."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="3) If name or other information has been written on the drawing sheet apart from mentioned at point no. 2 then that participant\'s drawing will not be eligible for judging criteria and considered as invalid drawing."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="4) Only 1st, 2nd and 3rd position will be awarded from each category and from each school/ residential society with prize and certificate."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="5) Theme of the competition is given separately for every group."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="6) Size of the paper will be 56x36 cm."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="7) All the related materials like pencil, eraser, colours, drawing board etc. will be arranged by the participant."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="8) Drawing paper will be provided by Amarpushp Educational and Welfare Society (AEWS)."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="9) Awards will be distributed separately in each particular Group for each school or residential society."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="10) AEWS shall be entitled to publish to include banner, poster of partners and sponsor inside the premise of society or school on the event day."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start"
+                android:text="11) All drawing which will be created by participants during drawing competition will be the property of Amarpushp Educational and Welfare Society (AEWS) and can be used anywhere in any form by AEWS and participant/school/residential society have no rights to claim those drawings."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/expression_2017_18_national_artist_banner"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

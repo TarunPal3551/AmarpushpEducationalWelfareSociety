@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="org.amarpushp.android.activities.Donate_Us">
+
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@color/amarpushpapp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="324dp"
+            android:layout_height="171dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/amarpushp_donation" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp"
+        android:text="Donation by Online Funds Transfer"
+        android:textColor="@color/amarpushpapp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative1"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/amarpushp_gradient">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="289dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="327dp">
+
+                    <TextView
+                        android:id="@+id/editText3"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/textView18"
+                        android:layout_alignTop="@+id/textView24"
+                        android:ems="10"
+                        android:text="Kareilly"
+                        android:textColor="@color/amarpushpapp"
+                        android:layout_alignLeft="@+id/textView18" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="126dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginEnd="18dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_toStartOf="@+id/textView20"
+                        android:text="A/c Holder Name  :"
+                        android:textColor="@android:color/black"
+                        android:layout_marginRight="18dp"
+                        android:layout_toLeftOf="@+id/textView20" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="153dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignTop="@+id/textView17"
+                        android:layout_marginEnd="11dp"
+                        android:text="Amarpushp Educational &amp; Welfare Society"
+                        android:textColor="@color/amarpushpapp"
+                        tools:ignore="HardcodedText"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="11dp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_marginTop="59dp"
+                        android:text="Bank Name  :"
+                        android:textColor="@android:color/black"
+                        android:layout_alignLeft="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="55dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignStart="@+id/textView18"
+                        android:layout_alignTop="@+id/textView19"
+                        android:text="HDFC"
+                        android:textColor="@color/amarpushpapp"
+                        android:layout_alignLeft="@+id/textView18" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_marginBottom="124dp"
+                        android:text=" City  :"
+                        android:textColor="@android:color/black"
+                        android:layout_alignLeft="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_marginBottom="87dp"
+                        android:text="State  :"
+                        android:textColor="@android:color/black"
+                        android:layout_alignLeft="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_marginTop="94dp"
+                        android:text="Branch Name  :"
+                        android:textColor="@android:color/black"
+                        android:layout_alignLeft="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_centerVertical="true"
+                        android:text="Account Number  :"
+                        android:textColor="@android:color/black"
+                        android:layout_alignLeft="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_marginTop="127dp"
+                        android:text="IFSC Code  :"
+                        android:textColor="@android:color/black"
+                        android:layout_alignLeft="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/editText3"
+                        android:layout_alignTop="@+id/textView27"
+                        android:text="HDFC0001881"
+                        android:textColor="@color/amarpushpapp"
+                        android:layout_alignLeft="@+id/editText3" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView17"
+                        android:layout_marginBottom="52dp"
+                        android:text="Country  :"
+                        android:textColor="@android:color/black"
+                        android:layout_alignLeft="@+id/textView17" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/editText3"
+                        android:layout_centerVertical="true"
+                        android:text="18811450000058"
+                        android:textColor="@color/amarpushpapp"
+                        android:layout_alignLeft="@+id/editText3" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/editText3"
+                        android:layout_alignTop="@+id/textView21"
+                        android:text="Allahabad"
+                        android:textColor="@color/amarpushpapp"
+                        android:layout_alignLeft="@+id/editText3" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/editText3"
+                        android:layout_alignTop="@+id/textView22"
+                        android:text="Uttar Pradesh"
+                        android:textColor="@color/amarpushpapp"
+                        android:layout_alignLeft="@+id/editText3" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/editText3"
+                        android:layout_alignTop="@+id/textView23"
+                        android:text="India"
+                        android:textColor="@color/amarpushpapp"
+                        android:layout_alignLeft="@+id/editText3" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Amarpushp Educational &amp; Welfare Society</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="About_Expression1">
+        It is a platform of Amarpushup Educational and Welfare Society for extra curriculum and sports activity.</string>
+    <string name="About_Expression2">It provides an unique platform for the children to
+        cultivate extra curriculum activities like drawing, rangoli design, lamp designing, etc.</string>
+    <string name="About_Expression3">By this platform, Amarpushup Educational and Welfare Society
+        spreads awareness of many social issues in children like Social Tree, Save Water, Save the Girl Child,
+        Value the Girl Child, Education Awareness, Health Awareness, etc.</string>
+    <string name="sportsContent">Amarpushp Educational and Welfare Society encourage children to participate in various sports activity. We also explain the benefits of sports children and parents. By this way, childeren will spend less time with the cartoon, comics, mobile and video games. Sports will make the healthy and strong.</string>
+    <string name="NGO_Name"><![CDATA[Amarpushp Educational & Welfare Society]]></string>
+    <string name="about_us_page"><![CDATA[Amarpushp Educational & Welfare Society (AEWS) is a non-profit organization registered under the Societies\'
+     Registration Act of 1860. We were set up in May 2011 and since then have been raising resources for girls education and health care.  AEWS is a group of hard working members who are working for the sustainable development of the society by providing necessary facilities to the needy Child.]]></string>
+</resources>

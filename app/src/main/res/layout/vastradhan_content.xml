@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.amarpushp.android.client.vastradhan.VastraDhan_MainActivity"
+    tools:showIn="@layout/vastradhan_page_app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vastradhanimageviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp">
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/vastradhanSliderDots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/vastradhanNewstextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vastradhanimageviewpager"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/card_border"
+            android:gravity="center"
+            android:text=" Vastra Dhan News"
+            android:textColor="@color/amarpushpapp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/newsvastradhanPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vastradhanNewstextview"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/vastradhanCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/newsvastradhanPage"
+            android:layout_marginTop="15dp"
+
+            >
+
+            <TextView
+                android:id="@+id/vastradhantextViewEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/cardView"
+                android:background="@drawable/card_border"
+                android:gravity="center"
+                android:text="Upcoming Events"
+                android:textAlignment="center"
+                android:textColor="@color/amarpushpapp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/vastradhan_up_coming_event_recyler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@color/amarpushpapp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="0dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/advertisement"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_below="@+id/vastradhanCardView"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Advertisment"
+            android:textColor="@color/amarpushpapp"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

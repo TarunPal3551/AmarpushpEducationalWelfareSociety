@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/women_empowerment_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/women_empowerment_page_app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/women_empowerment_nav_view"
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/amarpushpapp"
+        android:drawingCacheQuality="high"
+        app:headerLayout="@layout/women_empowerment_nav_header_main"
+        app:itemBackground="@drawable/nav_item_border"
+        app:itemTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:itemTextColor="#ffffff"
+        app:menu="@menu/women_empowerment_navigation_menu"
+        android:scrollbars="vertical"
+        >
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

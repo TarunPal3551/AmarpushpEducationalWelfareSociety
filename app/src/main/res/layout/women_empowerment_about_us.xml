@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:context="org.amarpushp.android.client.WomenEmpowerment.WomenEmpowermentAboutUsActivity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fitsSystemWindows="true"
+            android:text="About Women Empowerment"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_collapseMode="parallax"
+            android:background="@color/amarpushpapp"/>
+
+        <ImageView
+            android:layout_width="330dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:src="@drawable/women_empowerment_noida_dehli_ncr_gurgaon_allahabad_4"/>
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="100dp"
+            android:text="Women Empowerment"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:layout_marginStart="15dp"
+            android:lineSpacingExtra="8sp"
+            android:text="         Amarpushp and Educational Society encourages women to come forward and be the change maker. We help women to learn new skills like sewing, painting, arts, crafts, rakhi making, etc. make them independent. It helps women to be empowered and gain confidence to face the challenge and show their hidden talent to the world. "
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

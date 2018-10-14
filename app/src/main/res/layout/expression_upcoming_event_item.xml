@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="5dp"
+        app:cardCornerRadius="15dp"
+        android:id="@+id/cardView2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/expressioneventImage"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/card_border"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/image3"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/expressioneventname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
+                android:layout_toEndOf="@+id/expressioneventImage"
+                android:layout_toRightOf="@+id/expressioneventImage"
+                android:text="Event Name"
+                android:textAlignment="center"
+                android:textColor="@color/amarpushpapp"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/expression_event_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/expressioneventname"
+                android:layout_alignStart="@+id/expressioneventname"
+                android:layout_below="@+id/expressioneventname"
+                android:layout_marginTop="5dp"
+                android:text="This event is great and valuable event for poor peoples"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/uploaded_time_of_expression_event"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/expressioneventImage"
+                android:layout_alignLeft="@+id/timing_of_expression_event"
+                android:layout_alignStart="@+id/timing_of_expression_event"
+                android:layout_marginLeft="88dp"
+                android:layout_marginStart="88dp"
+                android:text="Uploaded Time"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/expressioneventVenue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/expression_event_Description"
+                android:layout_alignStart="@+id/expression_event_Description"
+                android:layout_below="@+id/expression_event_Description"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:text="Venue of Event"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/timing_of_expression_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/uploaded_time_of_expression_event"
+                android:layout_alignLeft="@+id/expressioneventVenue"
+                android:layout_alignStart="@+id/expressioneventVenue"
+                android:layout_below="@+id/expressioneventVenue"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="5dp"
+                android:text="Timeing of Events is 9 pm morning"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:gravity="start"
+                android:textSize="10dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

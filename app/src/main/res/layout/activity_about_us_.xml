@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/amarpushp_gradient"
+    tools:context="org.amarpushp.android.activities.About_us_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="344dp"
+            android:layout_height="224dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/logodifferntsize">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="263dp"
+            android:background="@color/amarpushpapp"
+            android:lineSpacingExtra="6sp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="20dp"
+            android:text="@string/about_us_page"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView28"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="130dp"
+                android:layout_height="146dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/imageView6"
+                android:layout_marginEnd="27dp"
+                app:srcCompat="@drawable/mrs_pushpa" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="130dp"
+                android:layout_height="146dp"
+                android:layout_marginBottom="285dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/mrs_gitanjali" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="130dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@+id/imageView6"
+                android:layout_below="@+id/imageView5"
+                android:gravity="center"
+                android:text="Mrs. Gitanjali"
+                android:textColor="@color/amarpushpapp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="130dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@+id/imageView5"
+                android:layout_below="@+id/imageView5"
+                android:gravity="center"
+                android:text="Mrs. Pushpa"
+                android:textColor="@color/amarpushpapp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="130dp"
+                android:layout_height="20dp"
+                android:layout_alignStart="@+id/imageView6"
+                android:layout_below="@+id/textView29"
+                android:gravity="center"
+                android:text="Secretary"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="130dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/textView30"
+                android:layout_alignStart="@+id/textView30"
+                android:layout_below="@+id/textView30"
+                android:gravity="center"
+                android:text="Advisor"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="130dp"
+                android:layout_height="146dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_marginTop="217dp"
+                app:srcCompat="@drawable/mr_amar_nath" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="130dp"
+                android:layout_height="148dp"
+                android:layout_alignStart="@+id/imageView5"
+                android:layout_alignTop="@+id/imageView7"
+                app:srcCompat="@drawable/mr_ashish" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="127dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@+id/imageView6"
+                android:layout_below="@+id/imageView7"
+                android:gravity="center"
+                android:text="Mr. Amar Nath"
+                android:textColor="@color/amarpushpapp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="130dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@+id/imageView8"
+                android:layout_below="@+id/imageView7"
+                android:gravity="center"
+                android:text="Mr. Ashish"
+                android:textColor="@color/amarpushpapp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="128dp"
+                android:layout_height="20dp"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_below="@+id/textView33"
+                android:gravity="center"
+                android:text="Vice President"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="130dp"
+                android:layout_height="20dp"
+                android:layout_alignStart="@+id/imageView8"
+                android:layout_below="@+id/textView34"
+                android:gravity="center"
+                android:text="Volunteer"
+                android:textColor="@android:color/black" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:layout_below="@+id/relative1">
+
+            <ImageView
+                android:id="@+id/blogconnect"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/twitterconnect"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/blog" />
+
+            <ImageView
+                android:id="@+id/facebookconnect"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView42"
+                android:layout_marginTop="80dp"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/linkedinconnect"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/facebookconnect"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/linkdin" />
+
+            <ImageView
+                android:id="@+id/youtubeconnect"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignEnd="@+id/textView42"
+                android:layout_alignTop="@+id/facebookconnect"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/twitterconnect"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/facebookconnect"
+                android:layout_marginBottom="14dp"
+                app:srcCompat="@drawable/twitter" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="38dp"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:text="Connect with us"
+                android:textColor="@color/amarpushpapp"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

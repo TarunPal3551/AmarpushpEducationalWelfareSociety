@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.amarpushpeducationalwelfaresocietyblue">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Amarpush Educational and Welfare Society"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme">
+        <activity android:name="org.amarpushp.android.activities.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.amarpushp.android.client.Home.HomePageActivity"/>
+        <activity android:name="org.amarpushp.android.client.login.Amarpushp_Login_Activity"/>
+        <activity android:name="org.amarpushp.android.client.expression.ExpressionPageActivity"/>
+        <activity android:name="org.amarpushp.android.client.Sports.SportsActivity"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_Creative_Member_MainActvity"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_Videos_Activity"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_Photos_Activity"/>
+        <activity android:name="org.amarpushp.android.client.expression.ExpressionAboutUsActivity"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_Partners"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_Sponsors"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_National_Drawing_Competition"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_National_Artist_Competition"/>
+        <activity android:name="org.amarpushp.android.client.expression.Expression_Donate_Us"/>
+        <activity android:name="org.amarpushp.android.activities.Donate_Us"/>
+        <activity android:name="org.amarpushp.android.activities.About_us_Activity"/>
+        <activity android:name="org.amarpushp.android.activities.Contact_Us"/>
+        <activity android:name="org.amarpushp.android.activities.Sponser_Activity"/>
+        <activity android:name="org.amarpushp.android.activities.Partners_Activity"/>
+        <activity android:name="org.amarpushp.android.client.vastradhan.VastraDhan_Creative_Members"/>
+        <activity android:name="org.amarpushp.android.client.vastradhan.VastraDhan_MainActivity"/>
+        <activity android:name="org.amarpushp.android.client.vastradhan.VastraDhanAboutUsActivity"/>
+        <activity android:name="org.amarpushp.android.client.WomenEmpowerment.WomenEmpowerment_CreativeMembers"/>
+        <activity android:name="org.amarpushp.android.client.WomenEmpowerment.WomenEmpowermentAboutUsActivity"/>
+        <activity android:name="org.amarpushp.android.client.WomenEmpowerment.WomenEmpowerment_MainActivity"/>
+    </application>
+
+</manifest>

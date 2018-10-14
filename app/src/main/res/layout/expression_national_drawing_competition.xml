@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:context="org.amarpushp.android.client.expression.Expression_Creative_Member_MainActvity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fitsSystemWindows="true"
+            android:text="National Drawing Competition"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_collapseMode="parallax"
+            android:background="@color/amarpushpapp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Amarpushp Educational and welfare Society is organizing a Drawing competition for children to enhance children's creativity as art allows them to express, explore, experiment and expand which creates an individual a confident, patient, innovative and visionary person of the society."
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="      The following rules and regulation will be applicable to all the participants of artist competition."
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1) This competition is open for all Indian artist (if any artist belongs to other country but he/she is living in India with valid VISA then he/she can also participate in this competition)."
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:gravity="start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2) University/ Organization/ Individual artist / group of artist can contact to Amarpushp Manager by sending email to: manager.amarpushp@gmail.com and get more details."
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3) The Registration fees is ( Non-Refundable / Non-Returnable / Non-Transferable ) per artist / per drawing should be sent either by Paytm or NEFT/RTGS/IMPS or Money Order or Demand Draft only in favour of Amarpushp Educational And Welfare Society , payable at Allahabad, Uttar Pradesh. No Reduction / Deduction from Entry Fees should be done. Any amount sent will be considered as Entry Fees only. The Entry fees will not be returned or will not be refunded or will not be transferable to accounts of any University / Organization / individual / artist group in any Case / any Level / any Stage. Postal / Courier / Money Order / Demand Draft Charges and any other Incidental Expenses met by the participant/ University/ Organization / artist group only."
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textAlignment="textStart"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:text="4) It is suggested to University or organization to collect all drawing from artist, registration fees and do payment of fees at once then send artist details and drawing to AEWS head office."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:text="5) The drawing / entries without registration fees and insufficient registration fees will not be accepted / will not be refunded / will not be returned / will not be transferred."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:text="6) No colour papers / no glittering glues etc., should be used / pasted to the drawing / entries."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:textSize="17sp"
+                android:textAlignment="textStart"
+                android:text="7) AEWS will not be responsible for any damage / loss during the transportation."/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/expression_2017_18_all_india_banner_1"/>
+
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+

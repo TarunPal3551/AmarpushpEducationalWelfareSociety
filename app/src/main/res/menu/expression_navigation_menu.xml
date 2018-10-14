@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <item
+        android:id="@+id/Expression_About_Us"
+        android:icon="@drawable/home"
+        android:title="About Expression"
+        />
+    <item
+        android:id="@+id/Expression_Creative_Members"
+        android:icon="@drawable/members"
+        android:title="Creative Members"/>
+    <item
+        android:id="@+id/Expression_National_Drawing_Competition"
+        android:icon="@drawable/drawing"
+        android:title="National Drawing Competition
+                        (Upto Class 12)"
+        android:titleCondensed="(Upto Class 12)"/>
+
+    <item
+        android:id="@+id/Expression_National_Artist_Competition"
+        android:icon="@drawable/artist"
+        android:title="National Artist Competition" />
+    <item
+        android:id="@+id/Expression_Sponsors"
+        android:icon="@drawable/sponser"
+        android:title="Sponsors" />
+    <item
+        android:id="@+id/Expression_Partners"
+        android:icon="@drawable/partner"
+        android:title="Partners" />
+    <item
+        android:id="@+id/Expression_Contact"
+        android:icon="@drawable/contact_book"
+        android:title="Contact" />
+    <item
+        android:id="@+id/Expression_Photo_Gallery"
+        android:icon="@drawable/gallery"
+        android:title="Photo Gallery" />
+    <item
+        android:id="@+id/Expression_Videos"
+        android:icon="@drawable/video"
+        android:title="Videos" />
+    <item
+        android:id="@+id/Expression_Donate"
+        android:icon="@drawable/donate"
+        android:title="Donate" />
+    <item
+        android:id="@+id/Expression_Notification"
+        android:icon="@drawable/notificatio"
+        android:title="Notification" />
+</menu>

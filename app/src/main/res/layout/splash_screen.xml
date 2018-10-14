@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/amarpushpapp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="cursive"
+            android:text="Welcome to Amarpushp Educational and Welfare Society"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#ffffff"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:fontFamily="cursive"
+            android:text="Registered under Socities Registration Under Act of 1980"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="254dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="17dp"
+            android:layout_weight="50"
+            android:background="@drawable/button_style"
+            android:text="LOGIN"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/browsebutton"
+            android:layout_width="254dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="83dp"
+            android:layout_weight="50"
+            android:background="@drawable/button_style"
+            android:text="BROWSE"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="259dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@color/amarpushpapp"
+            android:gravity="center">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/sliderimageviewpager"
+                android:layout_width="match_parent"
+                android:layout_height="241dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:id="@+id/splashsliderDots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.amarpushp.android.client.WomenEmpowerment.WomenEmpowerment_MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_card_border">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/women_empowerment_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:popupTheme="@style/PopupOverlay">
+
+            <ImageView
+                android:id="@+id/women_empowerment_imageView"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/amarpushp_logo" />
+
+            <ImageView
+                android:id="@+id/sharebutton"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_menu_share"
+                android:tint="@color/amarpushpapp"
+                />
+
+            <ImageView
+                android:id="@+id/languageselectbutton"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/ic_language"
+                android:tint="@color/amarpushpapp" />
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        layout="@layout/women_empowerment_content"
+        android:layout_height="513dp"
+        tools:ignore="IncludeLayoutParam"
+        tools:layout_editor_absoluteY="54dp" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:fitsSystemWindows="true"
+        tools:context="org.amarpushp.android.client.expression.Expression_Creative_Member_MainActvity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fitsSystemWindows="true"
+            android:text="Creative Members"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_collapseMode="parallax"
+            android:background="@color/amarpushpapp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/memberImage1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mrs_gitanjali"
+                    android:padding="4dp"
+                    android:layout_marginTop="22dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="12dp">
+
+
+                    <TextView
+                        android:id="@+id/textViewTitle1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Mrs. Gitanjali"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewDesignation1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Designation : Secretary"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewOccupation1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Occupation : Social Service"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewQuaification1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Qualification : M.A., B.Ed"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/facebook_image_button1"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/fb_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/twitter_image_button1"
+                            android:layout_marginLeft="755dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/twitter_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/linkedin_image_button1"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/linkedin_icon"
+                            />
+
+                        <ImageButton
+                            android:id="@+id/google_plus_image_button1"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/google_plus_icon" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/memberImage2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mrs_pushpa"
+                    android:layout_marginTop="22dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="12dp">
+
+
+                    <TextView
+                        android:id="@+id/textViewTitle2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Mrs. Pushpa"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewDesignation2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Designation : Advisor"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewOccupation2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Occupation : Social Service"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewQuaification2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Qualification : M.A."
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/facebook_image_button2"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/fb_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/twitter_image_button2"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/twitter_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/linkedin_image_button2"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/linkedin_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/google_plus_image_button2"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/google_plus_icon"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/memberImage3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mr_amar_nath"
+                    android:layout_marginTop="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="12dp">
+
+
+                    <TextView
+                        android:id="@+id/textViewTitle3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Mr. Amar Nath"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewDesignation3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Designation : Vice President"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewOccupation3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Occupation : Social Service"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewQuaification3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/facebook_image_button3"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/fb_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/twitter_image_button3"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/twitter_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/linkedin_image_button3"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/linkedin_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/google_plus_image_button3"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/google_plus_icon"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:id="@+id/memberImage4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mr_ashish"
+                    android:layout_marginTop="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="12dp">
+
+
+                    <TextView
+                        android:id="@+id/textViewTitle4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Mr.Ashish"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewDesignation4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Designation : Volunteer"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewOccupation4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Occupation : I.T. Professional"
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewQuaification4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Qualification : M.C.A."
+                        android:layout_marginStart="5dp"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/facebook_image_button4"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/fb_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/twitter_image_button4"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/twitter_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/linkedin_image_button4"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/linkedin_icon"
+                            />
+
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/google_plus_image_button4"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/google_plus_icon"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>

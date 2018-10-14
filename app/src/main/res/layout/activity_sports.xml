@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scrollbarAlwaysDrawVerticalTrack="true">
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="109dp"
+                                android:gravity="center"
+                                android:text="Sports and CurriculamActivities"
+                                android:textColor="@color/amarpushpapp"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <GridView
+                                android:id="@+id/allsports"
+                                android:layout_width="wrap_content"
+                                android:layout_height="500dp"
+                                android:layout_marginTop="250dp"
+                                android:background="@android:drawable/screen_background_light_transparent"
+                                android:columnWidth="130dp"
+                                android:gravity="center"
+                                android:isScrollContainer="true"
+                                android:numColumns="3" />
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/textView5"
+                                android:text="@string/sportsContent"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp">
+
+                            </TextView>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="400dp"
+                                android:layout_below="@+id/allsports"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="182dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="17dp"
+                                    android:gravity="center"
+                                    android:text="Vedios"
+                                    android:textColor="@color/amarpushpapp"
+                                    android:textSize="24sp" />
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+
+
+
+                </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/side_nav_bar">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="241dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Upcoming Sports Event"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:text="(Image Slider)"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+
+    <item
+        android:id="@+id/Women_Empowerment_About_Us"
+        android:icon="@drawable/home"
+        android:title="About Women Empowerment"
+        />
+    <item
+        android:id="@+id/Women_Empowerment_Creative_Members"
+        android:icon="@drawable/members"
+        android:title="Creative Members"/>
+
+    <item
+        android:id="@+id/Women_Empowerment_Sponsors"
+        android:icon="@drawable/sponser"
+        android:title="Sponsors" />
+    <item
+        android:id="@+id/Women_Empowerment_Partners"
+        android:icon="@drawable/partner"
+        android:title="Partners" />
+    <item
+        android:id="@+id/Women_Empowerment_Contact"
+        android:icon="@drawable/contact_book"
+        android:title="Contact" />
+    <item
+        android:id="@+id/Women_Empowerment_Photo_Gallery"
+        android:icon="@drawable/gallery"
+        android:title="Photo Gallery" />
+    <item
+        android:id="@+id/Women_Empowerment_Videos"
+        android:icon="@drawable/video"
+        android:title="Videos" />
+    <item
+        android:id="@+id/Women_Empowerment_Donate"
+        android:icon="@drawable/donate"
+        android:title="Donate" />
+    <item
+        android:id="@+id/Women_Empowerment_Notification"
+        android:icon="@drawable/notificatio"
+        android:title="Notification" />
+</menu>
